@@ -14,7 +14,6 @@
   object-fit: cover;
   background-attachment: fixed;
   min-width: 375px;
-  padding: 10px;
   justify-content: center;
   align-items: center;
   --accent-color: #ff8dcb;
@@ -23,10 +22,6 @@
   --accent-header: #ffc2e6;
   --shadow-color: #ff0070;
   --another-color: #353430;
-}
-
-.theme_light .decoration-logo {
-  display: none;
 }
 
 :root {
@@ -38,16 +33,16 @@
   --another-color: #353430;
 }
 
+.page.theme_light .decoration-logo {
+  display: none;
+}
+
 @media (prefers-color-scheme: light) {
   .page {
     background-image: url("../images/cover-image-light.png");
     background-position: center;
     object-fit: cover;
     background-attachment: fixed;
-    min-width: 375px;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
     --accent-color: #ff8dcb;
     --accent-text: #353430;
     --main-text: #353430;
@@ -55,8 +50,8 @@
     --shadow-color: #ff0070;
     --another-color: #353430;
   }
-  .decoration-logo .theme_light {
+
+  .page.theme_auto .decoration-logo {
     display: none;
   }
 }
-

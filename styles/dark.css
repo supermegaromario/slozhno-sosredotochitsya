@@ -14,7 +14,6 @@
   object-fit: cover;
   background-attachment: fixed;
   min-width: 375px;
-  padding: 10px;
   justify-content: center;
   align-items: center;
   --accent-color: #ff0070;
@@ -36,19 +35,18 @@
 
 @media (prefers-color-scheme: dark) {
   .page {
-  background-image: url("../images/cover-image-dark.png");
-  background-position: center;
-  object-fit: cover;
-  background-attachment: fixed;
-  min-width: 375px;
-  padding: 10px;
-  justify-content: center;
-  align-items: center;
-  --accent-color: #ff0070;
-  --accent-text: #000028;
-  --main-text: #f1b2ce;
-  --accent-header: #db00ff;
-  --shadow-color: #ff0070;
-  --another-color: #ff0070;
-}
+    background-image: url("../images/cover-image-dark.png");
+    background-position: center;
+    object-fit: cover;
+    background-attachment: fixed;
+    min-width: 375px;
+    justify-content: center;
+    align-items: center;
+    --accent-color: #ff0070;
+    --accent-text: #000028;
+    --main-text: #f1b2ce;
+    --accent-header: #db00ff;
+    --shadow-color: #ff0070;
+    --another-color: #ff0070;
+  }
 }
