@@ -2,6 +2,7 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  background-color: var(--background-color);
   background-image: url("../images/cover-image-dark.png");
   background-position: center;
   object-fit: cover;
@@ -204,7 +205,6 @@
 .link:focus {
   outline: none;
   border: none;
-  border: 1px solid var(--main-text);
 }
 
 .link:focus-visible {
@@ -269,13 +269,12 @@
     top: 20px;
     right: 48px;
   }
-  
 
   .header::before {
     top: 20px;
     right: 20px;
   }
-  
+
   .header::after {
     bottom: 20px;
     left: 20px;
@@ -297,15 +296,11 @@
     gap: 80px;
   }
 
-  .images {
-    gap: 20px;
-  }
-
   .footer::before {
     top: 20px;
     right: 20px;
   }
-  
+
   .footer::after {
     bottom: 20px;
     left: 20px;
@@ -317,6 +312,7 @@
     grid-template-rows: repeat(3, auto);
     grid-auto-flow: dense;
     margin-block-start: 20px;
+    gap: 20px;
 
     grid-template-areas:
       "a a b"

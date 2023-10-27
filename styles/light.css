@@ -16,6 +16,7 @@
   min-width: 375px;
   justify-content: center;
   align-items: center;
+  --background-color: #FFF1F7;
   --accent-color: #ff8dcb;
   --accent-text: #353430;
   --main-text: #353430;
