@@ -259,7 +259,7 @@
 
 .content-list__article {
   display: grid;
-  grid-template-rows: 23px auto;
+  grid-template-rows: min-content auto;
   gap: 10px;
 }
 
